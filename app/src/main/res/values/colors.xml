@@ -4,9 +4,6 @@
     <color name="primaryLightColor">#67daff</color>
     <color name="primaryDarkColor">#007ac1</color>
     <color name="primaryTextColor">#000000</color>
-    <color name="secondary">#BCFF00</color>
-    <color name="secondaryV">#F40303</color>
-    <color name="colorOnSec">#D900FF</color>
     <color name="secondColor">#0d46a0</color>
     <color name="secondLightColor">#5471d2</color>
     <color name="secondDarkColor">#002071</color>

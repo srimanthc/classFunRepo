@@ -7,11 +7,22 @@
         <item name="colorPrimaryDark">@color/primaryDarkColor</item>
         <item name="colorOnPrimary">@color/primaryTextColor</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/secondary</item>
-        <item name="colorSecondaryVariant">@color/secondaryV</item>
-        <item name="colorOnSecondary">@color/colorOnSec</item>
+        <item name="colorSecondary">@color/secondColor</item>
+        <item name="colorSecondaryVariant">@color/secondDarkColor</item>
+        <item name="colorOnSecondary">@color/secondLightColor</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="customButtons" parent="android:style/Widget.Button">
+        <item name="android:textColor">@color/primaryDarkColor</item>
+        <item name="android:background">@drawable/ic_launcher_background</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="custonTextEdit" parent="android:style/Widget.TextView">
+        <item name="android:textColor">@color/primaryDarkColor</item>
+        
     </style>
 </resources>
