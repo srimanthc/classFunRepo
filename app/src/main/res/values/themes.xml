@@ -5,7 +5,7 @@
         <item name="android:colorPrimary">@color/primaryColor</item>
         <item name="colorPrimaryVariant">@color/primaryLightColor</item>
         <item name="colorPrimaryDark">@color/primaryDarkColor</item>
-        <item name="colorOnPrimary">@color/primaryTextColor</item>
+        <item name="colorOnPrimary">@color/secondTextColor</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/secondColor</item>
         <item name="colorSecondaryVariant">@color/secondDarkColor</item>
@@ -17,12 +17,22 @@
 
     <style name="customButtons" parent="android:style/Widget.Button">
         <item name="android:textColor">@color/primaryDarkColor</item>
-        <item name="android:background">@drawable/ic_launcher_background</item>
+        <item name="android:background">@drawable/check_button</item>
         <item name="android:padding">10dp</item>
+    </style>
+    <style name="customTextView" parent="android:style/Widget.TextView">
+        <item name="android:layout_width">@dimen/textViewWidth</item>
+        <item name="android:layout_height">@dimen/textViewHeight</item>
+        <item name="android:background">@color/primaryDarkColor</item>
+        <item name="android:paddingLeft">@dimen/editTextPadding</item>
+        <item name="android:paddingRight">@dimen/editTextPadding</item>
     </style>
 
     <style name="custonTextEdit" parent="android:style/Widget.TextView">
-        <item name="android:textColor">@color/primaryDarkColor</item>
-        
+        <item name="android:textColor">@color/secondDarkColor</item>
+        <item name="android:textSize">@dimen/fontSize</item>
+        <item name="android:layout_width">@dimen/editTextWidth</item>
+        <item name="android:layout_height">@dimen/editTextHeight</item>
     </style>
+
 </resources>
