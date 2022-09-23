@@ -8,8 +8,8 @@
     <dimen name="screenMargin">15dp</dimen>
     <dimen name="topPadding">10dp</dimen>
     <dimen name="editTextPadding">10dp</dimen>
-    <dimen name="fontSize">35dp</dimen>
-    <dimen name="buttonWidth">35dp</dimen>
-    <dimen name="buttonHeight">35dp</dimen>
+    <dimen name="fontSize">20sp</dimen>
+    <dimen name="buttonWidth">130dp</dimen>
+    <dimen name="buttonHeight">100dp</dimen>
 
 </resources>
